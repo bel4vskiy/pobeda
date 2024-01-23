@@ -1,0 +1,115 @@
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #FEFEFE;
+    padding-left: 481px;
+}
+.siteName {
+    display: flex;
+    padding-top: 13px;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+body {
+    background-color: #EBEAEA;
+    margin: 0;
+}
+
+.list {
+    margin-left: 685px;
+    list-style-type: none;
+    padding-left: 0;
+    background-color: #FEFEFE;
+    width: 550px;
+    border-radius: 12px;
+    border: 1px #626D7A solid;
+}
+
+.searchCon {
+    height: 30px;
+    width: 510px;
+    margin-left: 20px;
+    margin-top: 7px;
+    border-radius: 8px;
+    border:1px #626D7A solid;
+}
+
+.inputButton {
+    height: 30px;
+    width: 60px;
+    background-color: #EEF5FF;
+    float: right;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-left: 1px;
+    
+}
+
+.inputSearch {
+    border: 0px;
+    background-color: rgb(207, 211, 215, .);
+    width: 430px;
+    margin-top: 6px;
+    margin-left: 12px;
+    font-size: 13px;
+}
+
+.avatar {
+    border-radius: 360px;
+    border: 2px solid #040404;
+    margin-top: 12px;
+
+}
+
+.infoUser {
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+    margin-left: 10px;
+   
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    width: 550;
+    height: 104px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.infoOfName {
+    color: #176B87;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.info {
+    color: #626D7A;
+    margin-bottom: 5px;
+}
+
+.checkUser {
+    
+    background-color: #176B87;
+    border:0;
+    color: #EEF5FF;
+    border-radius: 8px;
+    height: 28px;
+    width: 115px;
+    margin-top: 38px;
+}
+
+.btnCheck {
+    float: right;
+}

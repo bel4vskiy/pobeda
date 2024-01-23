@@ -7,13 +7,16 @@ async function getUser() {
 }
 
 const getInnetHTML = (item) => `
-    <li>
-    <a href="user.html?userId=${item.id}">
-        <img src="C:\\Users\\stud307\\Desktop\\pobeda\\images\\${item.id}.jpg" alt="">
-        <span>${item.name}</span>
-        <span>${item.email}</span>
-        <span>${item.company.name}</span>  
-    </a>
+    <li class="user">
+    <img class="avatar" src="assets\\images\\${item.id}.jpg" width="80" height="80" alt="">
+    <div class="infoUser">
+        <span class="infoOfName">${item.name}</span>
+        <span class="info">${item.email}</span>
+        <span class="info">${item.company.name}</span> 
+   </div>
+   <div class="btnCheck">
+   <button class="checkUser">Просмотр</button>
+</div>
     </li>
     `
 
