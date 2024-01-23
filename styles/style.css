@@ -108,8 +108,9 @@ a {
     height: 28px;
     width: 115px;
     margin-top: 38px;
+    float: right;
 }
 
 .btnCheck {
-    float: right;
+    width: 100%;
 }

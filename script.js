@@ -10,10 +10,10 @@ const getInnetHTML = (item) => `
     <li class="user">
     <img class="avatar" src="assets\\images\\${item.id}.jpg" width="80" height="80" alt="">
     <div class="infoUser">
-        <span class="infoOfName">${item.name}</span>
-        <span class="info">${item.email}</span>
-        <span class="info">${item.company.name}</span> 
-   </div>
+            <span class="infoOfName">${item.name}</span>
+            <span class="info">${item.email}</span>
+            <span class="info">${item.company.name}</span> 
+    </div>
    <div class="btnCheck">
    <button class="checkUser">Просмотр</button>
 </div>
