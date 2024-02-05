@@ -1,0 +1,115 @@
+header {
+    height: 80px;
+    width: 1920px;
+    background-color: #FEFEFE;
+    padding-left: 302px;
+}
+
+.siteName {
+    display: flex;
+    padding-top: 13px;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+body {
+    background-color: #EBEAEA;
+    margin: 0;
+}
+
+.avatar {
+    border-radius: 360px;
+    border: 2px solid #040404;
+    position: absolute;
+    left: 556px;
+    top: 105px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.userProfile {
+    
+    margin-left: 506px;
+    margin-right: 505px;
+    margin-top: 100px;
+}
+
+.user {
+    background-color: #FEFEFE;
+    display: flex;
+    width: 909px;
+    height: 100px;
+    flex-direction: row;
+    border-radius: 12px;
+    margin-bottom: 65px;
+}
+
+.info {
+    margin-left: 225px;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 21px;
+    color: #176B87;
+    font-weight: bold;
+}
+
+.city {
+    margin-top: 7px;
+}
+
+.blockPost {
+    display: flex;
+    flex-direction: column;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.listPosts {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0px;
+}
+.post {
+    width: 550px;
+    background-color: #FEFEFE;
+    margin-bottom: 8px;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.headerPost {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+.moreInf {
+    float: right;
+    background-color: #FEFEFE;
+    border-radius: 12px;
+    padding: 15px;
+    height: 130px;
+   
+}
+
+.blocks {
+    width: 909px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listInf li {
+    margin-bottom: 8px;
+}
+
+.listInf {
+    list-style-type: none;
+    padding: 0;
+}

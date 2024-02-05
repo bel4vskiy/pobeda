@@ -99,18 +99,29 @@ a {
     margin-bottom: 5px;
 }
 
-.checkUser {
+.btn {
     
     background-color: #176B87;
     border:0;
-    color: #EEF5FF;
     border-radius: 8px;
     height: 28px;
     width: 115px;
     margin-top: 38px;
     float: right;
+    
 }
+
+.checkUser {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #EEF5FF;
+    padding-top: 7px;
+}
+
 
 .btnCheck {
     width: 100%;
 }
+
+
